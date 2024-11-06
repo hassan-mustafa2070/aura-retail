@@ -2,7 +2,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import NavBar from "./components/navBar";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 import AnnouncementBar from "./components/AnnouncementBar";
 import ClientProvider1 from "./components/ClientProvider1";
 import Head from "next/head";

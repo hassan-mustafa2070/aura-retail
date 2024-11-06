@@ -1,5 +1,5 @@
 import React from 'react'
-import CartComponent from './cartComponent'
+import CartComponent from './CartComponent'
 
 const CartFolder = () => {
   return (
