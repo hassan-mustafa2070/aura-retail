@@ -1,12 +1,10 @@
 import React from 'react'
-import Home from './components/homePage'
-
+import CheckoutComponent from '../components/checkoutFolder'
 
 const page = () => {
   return (
     <div>
-      <Home/>
-      
+        <CheckoutComponent/>
     </div>
   )
 }
