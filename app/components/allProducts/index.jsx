@@ -86,11 +86,11 @@ const AllProducts = () => {
                 {/* Price */}
                 <div className="flex items-center gap-2">
                   <div className="text-sm text-gray-800">
-                    <span className="ml-1">Rs.</span>{product.discount > 0 ? ((product.price * (1 - product.discount / 100)).toFixed(2)) : product.price.toFixed(2)}
+                    Rs.{product.discount > 0 ? ((product.price * (1 - product.discount / 100)).toFixed(2)) : product.price.toFixed(2)}
                   </div>
                   {product.discount > 0 && (
                     <div className="text-sm text-gray-500 line-through">
-                      <span className="mr-1">Rs.</span>{product.price.toFixed(2)}
+                      Rs.{product.price.toFixed(2)}
                     </div>
                   )}
                 </div>

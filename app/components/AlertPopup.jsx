@@ -60,6 +60,7 @@
 // new 
 "use client";
 import React from 'react';
+import { IoCloseOutline } from "react-icons/io5";
 
 const AlertPopup = ({ message, onClose }) => {
   return (
@@ -74,7 +75,7 @@ const AlertPopup = ({ message, onClose }) => {
           onClick={onClose}
           className="absolute top-3 right-3 text-gray-400 hover:text-gray-600 transition duration-300"
         >
-          &times;
+          <IoCloseOutline className='w-6 h-6'/>
         </button>
 
         <div className="text-center">

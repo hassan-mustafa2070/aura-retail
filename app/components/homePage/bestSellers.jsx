@@ -54,7 +54,7 @@ const BestSellers = ({ relatedProducts }) => {
                   </div>
                   {product.discount > 0 && (
                     <div className="text-base text-gray-500 line-through">
-                      <span className="mr-1">Rs.</span>{product.price.toFixed(2)}
+                      Rs.{product.price.toFixed(2)}
                     </div>
                   )}
                 </div>

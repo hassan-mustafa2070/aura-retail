@@ -46,7 +46,7 @@ const CartComponent = () => {
 
     // Handle navigation to the previous page
     const handleGoBack = () => {
-        router.back();
+        router.push("/products");
     };
 
     return (

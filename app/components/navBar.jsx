@@ -166,9 +166,9 @@ const NavBar = () => {
             />
           )}
           <Link href="/">
-            <div className='m-2 mx-3 p-0'>
-              <p className='ml-1 md:ml-0 text-xl font-bold md:text-2xl lg:text-3xl'>Aura</p>
-              <p className='lg:ml-0.5 text-[5px] -mt-1 font-tenorSans '>TIMELESS ELEGANCE</p>
+            <div className='m-2 mx-3 p-0 flex flex-col items-center'>
+              <p className=' text-xl font-bold md:text-2xl lg:text-3xl'>Aura</p>
+              <p className=' text-[5px] -mt-1 font-tenorSans '>TIMELESS ELEGANCE</p>
             </div>
           </Link>
         </div>
@@ -212,19 +212,19 @@ const NavBar = () => {
 >
   <li className='border-b border-b-gray-300'>
     <div className='flex justify-between items-center mb-2'>
-      <div className='m-2 mx-3 p-0'>
-        <p className='ml-1 md:ml-0 text-xl font-playfair font-bold md:text-2xl lg:text-3xl'>Aura</p>
-        <p className='lg:ml-1.5 text-[5px] -mt-1'>TIMELESS ELEGANCE</p>
-      </div>
+    <div className='m-2 mx-3 p-0 flex flex-col items-center'>
+              <p className=' text-xl font-bold md:text-2xl lg:text-3xl'>Aura</p>
+              <p className=' text-[5px] -mt-1 font-tenorSans '>TIMELESS ELEGANCE</p>
+            </div>
       <div>
         <RxCross1 className='h-5 w-5 md:hidden cursor-pointer' onClick={toggleMenu} />
       </div>
     </div>
   </li>
   <Link href={"/"}><li onClick={toggleMenu} className="hover:underline cursor-pointer">Home</li></Link>
-  <Link href={"products"}><li onClick={toggleMenu} className="hover:underline cursor-pointer">Shop</li></Link>
-  <Link href={"products"}><li onClick={toggleMenu} className="hover:underline cursor-pointer">New Arrivals</li></Link>
-  <Link href={"products"}><li onClick={toggleMenu} className="hover:underline cursor-pointer">Sale</li></Link>
+  <Link href={"/products"}><li onClick={toggleMenu} className="hover:underline cursor-pointer">Shop</li></Link>
+  <Link href={"/products"}><li onClick={toggleMenu} className="hover:underline cursor-pointer">New Arrivals</li></Link>
+  <Link href={"/products"}><li onClick={toggleMenu} className="hover:underline cursor-pointer">Sale</li></Link>
 </ul>
 
         </div>

@@ -6,9 +6,9 @@ import { AiFillTikTok } from "react-icons/ai";
 const Footer = () => {
   return (
     <footer className="bg-black text-white py-12 font-tenorSans">
-      <div className="container mx-auto px-4">
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mb-8 justify-start">
-          <div className='flex flex-col justify-center items-center'>
+      <div className="container mx-auto pr-6 sm:pr-0 md:px-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-8 sm:gap-8 mb-8 justify-start">
+          <div className='flex max-sm:-ml-4 flex-col justify-center items-center'>
             <h3 className="text-lg font-semibold mb-4 font-playfair">Company</h3>
             <ul className='text-sm'>
               <li className="mb-2">
